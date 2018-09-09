@@ -54,8 +54,9 @@ other = "All Categories"
 [article]
 one = "1 article"
 other = "{{ .Count }} articles"
-[tag]
-one = "Tag"
+
+[searchbar]
+one = "Search"
 other = "{{ if isset .Site.Params.widgets "search" }}
 {{ if .Site.Params.widgets.search }}
 <div class="panel panel-default sidebar-menu shadow">
